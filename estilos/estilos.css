@@ -38,7 +38,7 @@ header {
 }
 .section2 {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 0;
 }
 .section2 h2 {
     color: blue;
@@ -51,4 +51,19 @@ header {
     border-radius: 10px;
     max-width: 700px;
     margin: 0 auto;
+    overflow: hidden;
+}
+footer {
+    background-attachment: fixed;
+    background-color: rgb(40, 4, 49);
+    text-align: center;
+}
+footer h3 {
+    color: white;
+    font-weight: 900;
+    margin-top: 0;
+}
+footer p {
+    color: wheat;
+    margin-bottom: 0;
 }
